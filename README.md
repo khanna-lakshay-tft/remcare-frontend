@@ -1,37 +1,34 @@
-Project Overview
-This project is a React application that runs on your local machine on port 3000. It serves as a boilerplate for starting any React project with basic configurations and dependencies.
+# Project Overview
 
-Prerequisites
-Before you can run this project, you need to have the following software installed on your system:
+This project is a React application which serves as a frontend for the Chart application which uses Laravel as backend. This runs on port 3000. It serves as a boilerplate for starting any React project with basic configurations and dependencies.
 
-Node.js (which includes npm)
-Git
+## Installation
 
-Installation and Setup
 To get your local copy of the project up and running, follow these steps:
 
-Clone the repository:
-
+1. Clone the repository:
+```bash
 git clone <repository-url>
+```
 Replace <repository-url> with the URL of your repository.
 
-Navigate to the project directory:
-
+2. Navigate to the project directory:
+```bash
 cd <project-directory>
-Replace <project-directory> with the name of your project directory.
-
-Install dependencies:
-
+```
+3. Install dependencies:
+```bash
 npm install
-
-Start the development server:
-
+```
+4. Start the development server:
+```bash
 npm start
-This will start the React app on http://localhost:3000.
+```
 
-Project Structure
+## Project Structure
+
 The basic structure of the project is as follows:
-
+```bash
 project-directory/
 ├── public/
 │   ├── index.html
@@ -45,7 +42,9 @@ project-directory/
 ├── package.json
 ├── README.md
 └── ...
-
-In the project directory, you can run:
-
-npm start: Runs the app in the development mode. Open http://localhost:3000 to view it in your browser.
+```
+1. public/ : contains the HTML file so you can tweak it, for example, to set the page title.
+2. src/ : is where your JavaScript code is, including all React components.
+.gitignore specifies which files and directories to ignore in version control.
+3. package.json : contains metadata about the project and its dependencies.
+4. README.md : is this file, providing an overview and setup instructions for the project.

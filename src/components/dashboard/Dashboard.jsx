@@ -100,7 +100,7 @@ const Dashboard = () => {
       datasets: [
           {
               data: Object.entries(groupCounts).sort().map((data)=> data[1]),
-              backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
+              backgroundColor: ['#519DE9', '#7CC674', '#73C5C5', '#F6D173'],
           },
       ],
   };
